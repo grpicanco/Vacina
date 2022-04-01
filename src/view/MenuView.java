@@ -102,7 +102,7 @@ public class MenuView extends javax.swing.JFrame {
 
     private void vacinadoMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_vacinadoMenuItemActionPerformed
         // TODO add your handling code here:
-        ClienteView clienteView = new ClienteView();
+        VacinadoView clienteView = new VacinadoView();
         this.desktopPane.add(clienteView);
         clienteView.setVisible(true);
     }//GEN-LAST:event_vacinadoMenuItemActionPerformed
